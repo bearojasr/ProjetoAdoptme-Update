@@ -1,0 +1,207 @@
+/*-----------FONT-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*-----------------COLORES------------*/
+:root {
+    --verde: #4f6d7a;
+    --azulm: #4a6fa5;
+    --azulc: #a8dadc;
+    --azulcc:rgb(220, 242, 243);
+    --azulf: #166088;
+    --azulff: #07354e;
+    --marron: #3d2c2e;
+    }
+body{
+    width: 1024px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--azulf);
+}
+/*--------------LOGIN--------------------*/
+div label{
+   display:block;
+   margin-bottom: 15px;
+}
+#contenedor{
+    display: block;
+    margin-top:3%;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 250px;
+    height: 370px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #000;
+    z-index: 1; 
+}
+#logo{
+    font-size: 25px;
+    margin-bottom: 35px;
+
+}
+#TxtUsuario, #TxtSenha{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-style: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color:var(--azulc);
+   }
+#BtEnviar{
+    margin-top: 5px;
+    height: 40px;
+    width: 85px;
+    border-style: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--azulff);
+    font-size: 14px;
+    }
+#login{
+    margin-bottom: 20px;
+}
+#registrarse{
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--marron);
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+}
+#registrarse:hover{
+    color: var(--azulff);
+}
+#comentario{
+    margin-top: 0px;
+    font-size: 13px;
+}
+/* ----------------------------REGISTRO------- */
+#registro{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:3%;
+    padding-bottom: 20px;
+    width: 305px;
+    height: 550px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 20px #000;
+    display: none; 
+    z-index:2; 
+}
+#registro p{
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 5px;
+margin-left: 35px;
+color: var(--azulff);
+/* margin-left: 100px; */
+
+}
+.inputText{
+    padding-left: 10px;
+    font-size: 18px;
+    width: 190px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    /* margin: 5px; */
+    background-color: var(--azulc);
+ }
+ .inputButton{
+    margin-top: 50px;
+    font-size: 16px;
+    width: 120px;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid var(--azulff);
+    background-color: var(--azulff);
+ }
+ .inputButton:hover{
+    color: var(--azulcc);
+    
+ }
+
+.inputEndereco{
+    font-size: 18px;
+    /* padding-left: 15px; */
+    width: 270px;
+    height: 60px;
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: var(--azulc);
+    border-radius: 10px;
+}
+.inputCSenha{
+    /* padding-left: 10px; */
+    font-size: 18px;
+    width: 180px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    /* margin-left: 205px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--azulc);
+}
+form{
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: var(--azulf);
+    border: 0px;
+    margin-bottom: 10px;
+}
+#cerrar{
+    width: 30px;
+    height: 30px;
+   margin-left: 25px;
+    margin-top: 6px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: var(--azulff);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+#tamano{
+    margin-bottom: 10px;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 15px;
+   width: 95%;
+    height: 40px;
+}
+#tamanoDiv{
+    margin-bottom: 10px;
+    vertical-align: center;
+    text-align: right;
+    padding-right: 10px;
+   width: 95%;
+    height: 40px;
+/* background-color: #3d2c2e;  */
+}

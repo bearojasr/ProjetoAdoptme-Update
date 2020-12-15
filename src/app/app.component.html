@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="contenedor">
+    <div id="menu">
+        <div id="logo"><img src="assets/img/logo_icon.png" alt="Logo"></div>
+        <a class="a" routerLink="/" routerLinkActive="ac">Inicio</a>
+        <a class="a" routerLink="/adocao" routerLinkActive="ac">Adoção</a>
+        <a class="a" routerLink="/solicitacao" routerLinkActive="ac">Solicitação</a>
+        <a class="a" routerLink="/quienes_somos" routerLinkActive="ac">Quem_somos</a>
+        <div id="salir"><span>Usuario:</span><a class="a" >Sair</a></div>
+    </div>
+    <div id="banner"></div>
+    <div id="contenido">
+      <!-- enlaces -->
+      <router-outlet></router-outlet>
+    </div>
+    
+
+      
+        <div id="admin_articulos">
+            <form >
+                <div class="admin"><label for="">Administração</label></div>
+                
+                <input class="inputTxt" type="text" placeholder="Usuario">
+                <input class="inputTxt" type="password" placeholder="Senha">
+                <input class="inputBtn" type="submit" value="Enviar">
+            </form>
+            <br>
+            <div class="admin">Artigos</div>
+            <div ><iframe class="art" src="https://www.youtube.com/embed/UonCZgYpDkQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="textart">De quais vacinas meu cão precisa?</div>
+
+            <div><iframe class="art" src="https://www.youtube.com/embed/Fu_rgDw9Fcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="textart"> 5 dicas para fazer o seu cão gostar de banho.</div>
+        </div>
+        <div id="pie_pagina">
+            <div id="izquierda" class="contenedorPie">
+                <div id="ubicacion"></div>
+                <p class="endereco">Endereco:Ave Matapi No. 203, Santa teresinha, Sao Paulo, Brasil.
+                <em><p>Esperamos su visita, con gusto le atenderemos y retiraremos todas sus dudas </p></em>
+                </p>
+                     
+                <div id="info">
+                    <strong>
+                   <p> Empresa:</p>
+                    <p>Telefone: </p> 
+                   <p>E-Mail:</p> 
+                   <p>Site: </p> 
+                   
+                </strong>
+                </div>
+                <div id="infoDesc">
+                   <p>Fundação AgA "Adote e ganhe um Amigo."</p> 
+                   <p>12345678901</p> 
+                   <p>fundacao_aga@gmail.com </p>
+                   <p> www.aga.com.br </p>
+                   
+                </div>
+               
+                <div id="social">
+                   <strong> Redes Sociales</strong> <br> <br>
+                    facebook | Histagram | Linked 
+                </div>
+                
+            </div>
+            
+            <hr><div id="derecha" class="contenedorPie">
+                <h4>Envie-nos a sua opinião</h4>
+                <form>
+                    <input id="NomeComent" class="inputTxt" type="text" placeholder="Nome">
+                    <input id="MailComent" class="inputTxt" type="text" placeholder="E-mail">
+                    <textarea class="comentario" name="Comentario" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                    <input id="BtnComent" class="inputBtn" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+   
+</div>
+
+</body>
+</html>
